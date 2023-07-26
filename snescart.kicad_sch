@@ -1180,6 +1180,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 113.03 62.865 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 279ad257-477d-414e-a834-bde54744ae86)
+    (property "Reference" "#PWR012" (at 106.68 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 109.22 63.5 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 113.03 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f60ceac-4d98-4b39-a403-dee074f45831))
+    (instances
+      (project "snescart"
+        (path "/066a4729-7396-4945-b543-8e17bff58a3f"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VCC") (at 113.03 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 288807be-384b-4dc9-bfd1-a6a78436ff9f)
@@ -1406,6 +1431,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 138.43 62.865 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7cc8294-deaf-4219-a67a-25580a7f6269)
+    (property "Reference" "#PWR013" (at 144.78 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 142.4171 63.5 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 138.43 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 138.43 62.865 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fd0cf1f9-c410-44dd-92f4-99ca37196809))
+    (instances
+      (project "snescart"
+        (path "/066a4729-7396-4945-b543-8e17bff58a3f"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "SNES_Library:CASSETTE") (at 128.27 154.305 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8c1bac2-54e3-4c31-8388-9daf1389920f)
@@ -1483,12 +1533,12 @@
     (pin "7" (uuid 639b450e-a504-4035-8b8e-4928cd390619))
     (pin "8" (uuid d7a73790-05f1-45c8-9c57-cb90d8125cb0))
     (pin "9" (uuid e21f849f-f4fe-421b-ae43-2bda2c8bf128))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6cd))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6cd))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6cd))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6cd))
-    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b34334))
-    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b34334))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6d0))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6d0))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6d0))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6d0))
+    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b34335))
+    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b34335))
     (instances
       (project "snescart"
         (path "/066a4729-7396-4945-b543-8e17bff58a3f"
