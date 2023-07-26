@@ -1641,7 +1641,7 @@
   (symbol (lib_id "Memory_EPROM:27C080") (at 69.85 131.445 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd0e368a-98b7-4c6f-804e-9cd9f49777ed)
-    (property "Reference" "U3" (at 70.4341 96.52 0)
+    (property "Reference" "U1" (at 70.4341 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "27C080" (at 70.4341 99.06 0)
@@ -1688,7 +1688,7 @@
     (instances
       (project "snescart"
         (path "/066a4729-7396-4945-b543-8e17bff58a3f"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
