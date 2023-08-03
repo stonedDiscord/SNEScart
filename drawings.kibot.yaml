@@ -18,6 +18,7 @@ outputs:
       format: jpg
       output: front-drawn.jpg
       style:
+        clad: "#7d694f"
         board: "#018461"
         copper: "#758e5c"
         pads: "#6f5b3a"
@@ -32,6 +33,7 @@ outputs:
       output: back-drawn.jpg
       show_components: all
       style:
+        clad: "#7d694f"
         board: "#018461"
         copper: "#758e5c"
         pads: "#6f5b3a"
