@@ -18,10 +18,10 @@ outputs:
       format: jpg
       output: front-drawn.jpg
       style:
-        clad: "#7d694f"
-        board: "#018461"
-        copper: "#758e5c"
-        pads: "#6f5b3a"
+        clad: "#908065"
+        board: "#086647"
+        copper: "#7d9261"
+        pads: "#332b21"
 
   - name: 'drawb'
     comment: "Drawings to compare the original back side against"
@@ -33,8 +33,7 @@ outputs:
       output: back-drawn.jpg
       show_components: all
       style:
-        clad: "#7d694f"
-        board: "#018461"
-        copper: "#758e5c"
-        pads: "#6f5b3a"
-      placeholder: true
+        clad: "#948265"
+        board: "#355c37"
+        copper: "#355c37"
+        pads: "#3b3323"
