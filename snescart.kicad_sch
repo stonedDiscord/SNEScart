@@ -1515,7 +1515,7 @@
     (property "Value" "CASSETTE" (at 125.73 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Library:ImperialCart" (at 113.03 141.605 0)
+    (property "Footprint" "Library:CartEdge" (at 113.03 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 113.03 141.605 0)
@@ -1583,12 +1583,12 @@
     (pin "7" (uuid 639b450e-a504-4035-8b8e-4928cd390619))
     (pin "8" (uuid d7a73790-05f1-45c8-9c57-cb90d8125cb0))
     (pin "9" (uuid e21f849f-f4fe-421b-ae43-2bda2c8bf128))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e5))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e5))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e5))
-    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e5))
-    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b3433c))
-    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b3433c))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e8))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e8))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e8))
+    (pin "KEY" (uuid 0a50e71b-2ef4-41b6-8aeb-f8d3773cd6e8))
+    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b3433d))
+    (pin "SHIELD" (uuid 81a8055f-d968-4e53-9f14-ad1e12b3433d))
     (instances
       (project "snescart"
         (path "/066a4729-7396-4945-b543-8e17bff58a3f"
