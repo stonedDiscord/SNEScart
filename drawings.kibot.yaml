@@ -34,6 +34,6 @@ outputs:
       show_components: all
       style:
         clad: "#948265"
-        board: "#355c37"
-        copper: "#355c37"
+        board: "#285133"
+        copper: "#798b51"
         pads: "#3b3323"
